@@ -8,6 +8,11 @@
     <artifactId>wall-search</artifactId>
     <version>1.0</version>
 
+    <properties>
+        <javafx.version>2.0.2</javafx.version>
+        <javafx.home>C:/Program Files/Oracle/JavaFX 2.0 SDK</javafx.home>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>log4j</groupId>
@@ -41,5 +46,4 @@
             <version>2.2</version>
         </dependency>
     </dependencies>
-
 </project>
