@@ -1,4 +1,4 @@
-package ru.justdoo.vk.auth;
+package ru.justdoo.vk.basic;
 
 public final class Auth {
     private final String accessToken;
