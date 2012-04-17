@@ -14,11 +14,14 @@
     </properties>
 
     <dependencies>
+        <!-- log4j -->
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.16</version>
         </dependency>
+
+        <!-- commons -->
         <dependency>
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>
@@ -34,16 +37,27 @@
             <artifactId>commons-io</artifactId>
             <version>2.1</version>
         </dependency>
+
+        <!-- http client -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.1.2</version>
             <scope>compile</scope>
         </dependency>
+
+        <!-- html cleaner -->
         <dependency>
             <groupId>net.sourceforge.htmlcleaner</groupId>
             <artifactId>htmlcleaner</artifactId>
             <version>2.2</version>
+        </dependency>
+
+        <!-- google gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.1</version>
         </dependency>
     </dependencies>
 </project>
